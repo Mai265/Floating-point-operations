@@ -11,11 +11,11 @@ Output : the result of the floating point operation
 
 ## Give ve users x-permission to run the script
 
-> [x@server]# chmod &emsp; a+x  &emsp;   Floating.sh
+> [x@server ~]# chmod &emsp; a+x  &emsp;   Floating.sh
 
 
 ## Run the script
-> [x@server]# ./Floating.sh &emsp; "1.2" &emsp; "*" &emsp; "0.5"
+> [x@server ~]# ./Floating.sh &emsp; "1.2" &emsp; "*" &emsp; "0.5"
 
 ## Output
 > The Result is .60
