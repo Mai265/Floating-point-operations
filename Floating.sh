@@ -20,7 +20,7 @@ CH1=$(echo ${NUM1} | grep "^\-\{0,1\}[0-9]*.[0-9]*$" | wc -l)
 CH2=$(echo ${NUM2} | grep "^\-\{0,1\}[0-9]*.[0-9]*$" | wc -l)
 [ ${CH1} -eq 0 ] || [ ${CH2} -eq 0 ] && echo "Non-floating point numbers" && exit 2
 #### Checking for operator validation
-CH3=$(echo "\\${OP}" | grep [-,+,*,/,%] | wc -l)
+CH3=$(echo "\\${OP}" | grep [-,+,*,/] | wc -l)
 [ ${CH3} -eq 0 ] && echo "Invalued Operator" && exit 3
 #### Performing the operation
 case ${OP} in
