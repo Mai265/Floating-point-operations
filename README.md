@@ -1,9 +1,13 @@
 # **Floating-point-operations**
 Bash shell script to perform basic floating point operations (+,-,*,/)
 
-Input : two floating operands separated by the operator passed as position  parameters beside the script file name
+Input : 
 
-Output : the result of the floating point operation
+  - Two floating operands separated by the operator passed as position  parameters beside the script file name
+
+Output :
+
+  - The result of the floating point operation
 
 
 
