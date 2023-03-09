@@ -9,7 +9,7 @@ Output : the result of the floating point operation
 
 
 
-## Give ve users x-permission to run the script
+## Give users x-permission to run the script
 ```
 [x@server ~]# chmod   a+x   Floating.sh
 ```
